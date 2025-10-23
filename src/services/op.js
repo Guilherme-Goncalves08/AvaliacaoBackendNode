@@ -45,5 +45,14 @@ class ServicesSoma{
 
 
     }
+    Raiz(num1){
+        if(isNaN(num1)){
+            throw new Error("não é um numero")
+        }
+         const result = num1**0.5
+         return result;
+
+
+    }
 }
 export default new ServicesSoma()

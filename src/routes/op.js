@@ -8,6 +8,7 @@ router.post('/sub', ControllerOp.SubPost)
 router.post('/div', ControllerOp.DivPost)
 router.post('/mult', ControllerOp.MultiPost)
 router.post('/pot', ControllerOp.PotPost)
+router.post('/raiz', ControllerOp.RaizPost)
 
 
 
